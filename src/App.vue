@@ -5,12 +5,19 @@
 <template>
   <!--一级路由出口位置-->
   <RouterView/>
+  <div class="test">
+    test scss 
+  </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+.test {
+  color:$priceColor
 }
 
 .logo {
